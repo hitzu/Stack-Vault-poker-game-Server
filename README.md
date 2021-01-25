@@ -11,18 +11,13 @@ Back End con NodeJs
 1. Clonar repositorio ` https://github.com/hitzu/Stack-Vault-poker-game-Server.git `
 2. Instalar todas las dependencias con ` npm install `
 3. Levantar el servidor con ` npm start `
-4. IMPORTANTE: colocar el archivo .env.dev que se anexa en el correo electronico ya que es la conexion a mongo atlas y permite obtener los datos de la base de datos.
+4. IMPORTANTE: colocar el archivo `  .env.dev ` que se anexa en el correo electronico ya que es la conexion a mongo atlas y permite obtener los datos de la base de datos.
 
 ## Uso
 
 Las peticiones a los recursos de la api son consumidas en 
 
 `  http://localhost:8080/ `
-
-Revisar la documentacion para consumir los recursos de la api en el documento 
-
-` server/Documentacion/index.html  `
-
 ## Arquitectura del sistema
 
 La prueba tecnica utiliza una arquitectura modelo vista controlador 
